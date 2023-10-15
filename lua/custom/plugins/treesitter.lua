@@ -16,7 +16,8 @@ return {
       "nvim-treesitter/nvim-treesitter",
       config = function()
         require('nvim-treesitter.configs').setup {
-            ensure_installed = {'go', 'cpp', 'c', 'rust', 'toml', 'query', 'typescript', 'svelte', 'markdown'},
+            ensure_installed = {'go', 'cpp', 'c', 'rust', 'toml', 'query', 'typescript', 'svelte', 'markdown', 'lua'},
+            auto_install = true,
         
             highlight = {
                 enable = enabled, -- false will disable the whole extension

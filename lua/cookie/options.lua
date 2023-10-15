@@ -56,7 +56,7 @@ opt.inccommand = 'split'
 opt.swapfile = false -- Living on the edge
 opt.shada = {"!", "'1000", "<50", "s10", "h"}
 
-opt.mouse = 'n'
+opt.mouse = ''
 
 opt.hidden = true
 opt.secure = true

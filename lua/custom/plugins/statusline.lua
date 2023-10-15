@@ -78,7 +78,7 @@ return {
 
         gls.left[5] = {
             GitIcon = {
-                provider = function() return '  ' end,
+                provider = function() return '  ' end,
                 condition = buffer_not_empty,
                 highlight = {colors.orange, colors.purple}
             }
